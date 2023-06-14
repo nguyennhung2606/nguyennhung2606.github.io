@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bài tập buổi 6</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style type="text/css">
+            body{ background-color: gray;}
+            .body{
+                width: 400px;
+                height: 600px;
+                margin: 0 auto;
+                background-color: white;
+            }
+            .image img{
+            width: 100%; height: 300px;
+           }
+           .image{
+            position: relative;
+            
+           }
+           .text{
+            padding-left: 30px;
+            padding-right:30px ;
+            margin: 0px auto;           
+           }
+           .image-2{
+            width: 100px;height: 30px;
+            background-color: red;
+            color: white;
+            align-items: flex-end;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 10;
+           }
+           .image-3{
+            width: 50px;height: 50px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            flex-direction: row-reverse;
+            align-items: flex-start;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 10;
+           }
+           .text_last{
+            padding-bottom:10px ;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="body">
+            
+            <div>
+                <div>
+                    <div class="image">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg">
+                        <button class="image-2">PHOTOS</button>
+                        <button class="image-3">27 MAR</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="text">
+                <div>
+                    <h3 style=" font-weight: bold;font-size: 25px;">City Lights in New York</h3>
+                <p style="color: red;font-size: 20px;">The city that never sleeps.</p>
+                </div>
+                <div>
+                    <p>New York, the largest city in the U.S. is an architectural marvel with plenty of historic monuments, magnilicent building and countless dazzling skyscrapers.</p>
+                </div>
+                <div class="text_last">
+                    <div style="width: 50%; float: left;">
+                        <p><i class="fa-regular fa-clock"></i>6 mins ago</p>
+                    </div>
+                    <div style="width: 50%; float: right">
+                        <p><i class="fa-regular fa-comments"></i>39 comments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
