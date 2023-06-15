@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body_web{
+    width: 1832px;
+    height: 5032px;
+    position: relative;
+    background: #F5F5F5;
+    padding: 20px;
+}
+.header{
+    width: 1800px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: solid 1px black;
+    
+}
+.header_center{
+    font-size: 40px;
+}
+.header_left{
+    margin: 5px;
+}
+.header_right{
+    margin: 10px;
+}
+.body{
+    padding: 20px;
+    margin: 20px;
+}
+.image_banner{
+    width: 1730px;
+    height: 760px;
+    position: relative;
+}
+.container{
+    margin: 10px;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position:relative;
+}
+.title_card{
+    width: 1730px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+}
+.title_card2{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+}
+.card{
+    width: 25%;
+    margin-bottom: 20px;
+}
+.button_color{
+   margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;   
+}
+.text_style{
+    margin: 10px 0px;
+    text-align: left;
+}
+.button{
+    margin: 0px auto;
+}
+.introduce{
+    width: 1730px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: relative;
+}
+.in_image{
+    float: left;
+    width: 40%;
+}
+.text-1{
+    float: right;
+    width: 991px;
+    height: 639px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+.text-1 h3{
+    width: 787;
+    height: 184;
+    font-size: 50px;
+}
+.new_card{
+    width: 1730px;
+    margin: 10px;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+.text_2{
+    float: left;
+    width: 40%;
+    height: 698;
+    margin: 10px;
+}
+.text_2 h3{
+    width: 787;
+    height: 184;
+    font-size: 50px;
+}
+
+.in_image_2{
+    float: right;
+    width: 50%;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 5;
+}
+.textinphoto{
+    width: 500px;
+    height: 86px;
+    color: #FFFFFF;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    bottom: 292px;
+    right: 208px;
+}
+.footer{
+    width: 1825px;
+    height: 402;
+    background-color: #1C1B1B;
+    display: flex ;
+    flex-wrap: wrap;
+    position: relative;
+    align-content: flex-end;
+    color: #FFFFFF;
+    padding:0px 20px;
+    align-items: flex-end;
+
+}
+.mosi{
+    width: 100%;
+    height: 125px;
+    text-align: center;
+    border-bottom: solid 1px ;
+    padding: 50px;
+}
+.column{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+.list{
+    height: 277px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item_co{
+    width: 20%;
+    height: 402px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.item_co_text1{
+    width: 170px;
+    height: 44px;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 7px;
+    text-align: center;
+}
+   
+.item_co_icon img{
+    float: left;
+    width: 32;
+    height: 32;
+    border: 1px solid #FFFFFF;
+    border-radius: 46.5px;
+}
+.co_text1{
+    font-weight: bold;
+}
