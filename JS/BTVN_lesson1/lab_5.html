@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body >
+ <p> lab 5</p>
+ <p id="lab5"></p>
+  
+  <script>
+   function abc(mark){
+    if (mark>=85){
+        return "A";
+    }else{
+        if(mark>=70){
+            return "B";
+        }else{
+            if( mark>=40){
+                return "C";
+            }else{
+                return "D";
+            }
+        }
+    }
+   }
+    let result=abc(mark=60);
+    
+    document.getElementById("lab5").innerHTML = result;
+  </script>
+</body>
+</html>

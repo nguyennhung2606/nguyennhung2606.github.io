@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body >
+ <p> lab 3</p>
+ <p id="lab3"></p>
+  
+  <script>
+   function kiem_tra_chia_het(x){
+    if(x % 3 % 5 ===0) return"chia het";
+    else return "khong chia het";
+   } 
+    let result = kiem_tra_chia_het(15);
+    document.getElementById("lab3").innerHTML = result;
+  </script>
+</body>
+</html>
